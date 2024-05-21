@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8ba26cb1dc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Summer House Rental</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="img/icon-5577198_640.png" alt="" />
+      </div>
+
+      <div class="switcher-box">
+        <span class="switcher-description">
+          <p>Dark Mode</p>
+          <i class="fa-regular fa-moon"></i>
+          <!-- <i class="fa-solid fa-sun"></i> -->
+        </span>
+
+        <!-- Rounded switch -->
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Rewiews</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+      </div>
+    </header>
+    <div class="hero-image"></div>
+    <section class="about-us-container">
+      <h1>Welcome to the Luxury village apartment</h1>
+      <div class="about-us">
+        <h2>About us</h2>
+        <p>
+          Looking for the ultimate getaway in Miami? Look no further! Our
+          out-of-town retreat offers a luxurious escape just minutes away from
+          the vibrant city life. Nestled amidst serene surroundings, our resort
+          boasts a stunning swimming pools, perfect for soaking up the Florida
+          sun. After a day of relaxation, unwind in our rejuvenating saunas or
+          melt your cares away in our bubbling hot tub. But that's not all –
+          with a complimentary car for personal use, you can explore all that
+          Miami has to offer at your leisure. And the best part? All bills are
+          taken care of, so you can truly indulge without any worries. Whether
+          you're seeking a romantic retreat or a fun-filled adventure with
+          friends, our oasis in Miami promises an unforgettable experience. Book
+          your stay now and discover the epitome of luxury and relaxation in the
+          heart of paradise.
+        </p>
+
+        <div class="additional-info">
+          <div class="additional-info-flex">
+            <h3>2 x</h3>
+            <p>Salt Swimming Pool</p>
+            <div class="img-container">
+              <img src="img/pexels-pixabay-274249.jpg" class="image1" alt="" />
+            </div>
+          </div>
+          <div class="additional-info-flex">
+            <h3>3 x</h3>
+            <p>Sauna</p>
+            <div class="img-container">
+              <img
+                src="img/pexels-max-vakhtbovycn-7031713.jpg"
+                class="image2"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="additional-info-flex">
+            <h3>3 x</h3>
+            <p>Luxury Cars Available</p>
+            <div class="img-container">
+              <img
+                src="img/pexels-esmihel-muhammad-15097788.jpg"
+                class="image3"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Register Form</h2>
+
+      <form>
+        <div class="input-group">
+          <input type="text" id="name" required />
+          <label for="name"><i class="fa-solid fa-user"></i> Your </label>
+        </div>
+        <div class="input-group">
+          <input type="text" id="number" required />
+          <label for="number"
+            ><i class="fa-solid fa-phone"></i> Váš telefon</label
+          >
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" required />
+          <label for="email"
+            ><i class="fa-solid fa-envelope"></i> Váš email</label
+          >
+        </div>
+        <div class="input-group">
+          <input
+            class="password-first"
+            type="password"
+            id="password"
+            required
+          />
+          <label for="password"
+            ><i class="fa-solid fa-key"></i> Create Password</label
+          >
+        </div>
+        <div class="input-group">
+          <input
+            class="password-second"
+            type="password"
+            id="password"
+            required
+          />
+          <label for="password"
+            ><i class="fa-solid fa-key"></i> Confirm Password</label
+          >
+        </div>
+        <p class="result-text"></p>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+    <footer>
+      <button id="scrollTopBtn" title="Nahoru">back to top</button>
+      <p>&#169; 2024 Luxury village apartment</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
